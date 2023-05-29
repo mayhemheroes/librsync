@@ -60,7 +60,7 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile-isprefix
+          - mayhem/Mayhemfile_isprefix
 
     steps:
       - uses: actions/checkout@v3
