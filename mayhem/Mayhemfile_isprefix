@@ -1,0 +1,5 @@
+project: librsync
+target: /isprefix
+cmds:
+  - cmd: /fuzz_isprefix
+    libfuzzer: true
